@@ -38,40 +38,49 @@
 
   <!-- HERO -->
   <section class="hero" id="top">
-    <div class="hero__grid">
-      <div class="hero__l">
-        <p class="eyebrow reveal">Минск и область · с 2011 года</p>
-        <h1 class="hero__h reveal">
-          <span class="w">Дом,</span> <span class="w">который</span> <span class="w">держится</span>
-          <span class="w">на</span> <span class="w">своём</span> <span class="w">месте</span>
-        </h1>
-        <p class="hero__p reveal">
-          Монолит, каркас и отделка в одном договоре. Смета фиксируется до начала работ,
-          стоимость материалов подтверждаем чеками, каждый этап принимаете вы — по фотоотчёту
-          или на площадке.
-        </p>
-        <div class="hero__cta reveal">
-          <a class="btn btn--solid" href="#contact">Рассчитать стоимость</a>
-          <a class="link-arrow" href="#objects">Смотреть объекты<span aria-hidden="true">→</span></a>
+    <video class="hero__video" id="heroVideo" autoplay muted loop playsinline preload="auto"
+           poster="assets/build-hero-poster.jpg" disablepictureinpicture aria-hidden="true">
+      <source src="assets/build-hero-m.mp4" type="video/mp4" media="(max-width: 720px)">
+      <source src="assets/build-hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero__veil" aria-hidden="true"></div>
+    <div class="hero__in">
+      <div class="hero__top">
+        <p class="eyebrow eyebrow--light reveal">Минск и область · с 2011 года</p>
+      </div>
+      <div class="hero__bottom">
+        <div class="hero__l">
+          <h1 class="hero__h reveal">
+            <span class="w">Дом,</span> <span class="w">который</span> <span class="w">держится</span>
+            <span class="w">на</span> <span class="w">своём</span> <span class="w">месте</span>
+          </h1>
+          <p class="hero__p reveal">
+            Монолит, каркас и отделка в одном договоре. Смета фиксируется до начала работ,
+            стоимость материалов подтверждаем чеками, каждый этап принимаете вы.
+          </p>
+          <div class="hero__cta reveal">
+            <a class="btn btn--solid" href="#contact">Рассчитать стоимость</a>
+            <a class="link-arrow" href="#objects">Смотреть объекты<span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="hero__r">
+          <ul class="metrics reveal">
+            <li>
+              <span class="metrics__n" data-count="68">68</span>
+              <span class="metrics__l">объектов сдано</span>
+            </li>
+            <li>
+              <span class="metrics__n" data-count="14">14</span>
+              <span class="metrics__l">лет на площадке</span>
+            </li>
+            <li>
+              <span class="metrics__n" data-count="5">5</span>
+              <span class="metrics__l">лет гарантии на конструктив</span>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="hero__r">
-        <ul class="metrics reveal">
-          <li>
-            <span class="metrics__n" data-count="68">68</span>
-            <span class="metrics__l">объектов сдано</span>
-          </li>
-          <li>
-            <span class="metrics__n" data-count="14">14</span>
-            <span class="metrics__l">лет на площадке</span>
-          </li>
-          <li>
-            <span class="metrics__n" data-count="5">5</span>
-            <span class="metrics__l">лет гарантии на конструктив</span>
-          </li>
-        </ul>
-        <p class="hero__note">Свободные бригады на ноябрь: 2</p>
-      </div>
+      <p class="hero__scroll reveal" aria-hidden="true"><span class="hero__scrollDot"></span> прокрутите — дом построится</p>
     </div>
   </section>
 
@@ -79,8 +88,8 @@
   <section class="stage" id="stage" aria-labelledby="stage-h">
     <div class="stage__pin">
       <div class="stage__media">
-        <video class="stage__video" id="buildVideo" src="assets/build-scrub.mp4"
-               poster="assets/build-poster.jpg" muted playsinline preload="auto" disablepictureinpicture></video>
+        <video class="stage__video" id="buildVideo" src="assets/build-hero.mp4"
+               poster="assets/build-hero-poster.jpg" muted playsinline preload="auto" disablepictureinpicture></video>
         <div class="stage__veil"></div>
       </div>
       <div class="stage__overlay">
