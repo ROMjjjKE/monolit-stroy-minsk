@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>МОНОЛИТ — строительство домов под ключ в Минске</title>
+<meta name="description" content="Монолит, каркас и отделка под ключ: один договор, фиксированная смета, фотоотчёты со стройки. Минск и Минская область. От 780 BYN/м².">
+<meta name="theme-color" content="#0E0D0B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Golos+Text:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">К содержанию</a>
+
+<header class="hdr" id="hdr">
+  <div class="hdr__in">
+    <a class="brand" href="#top">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__txt">МОНОЛИТ</span>
+    </a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#stage">Как строим</a>
+      <a href="#services">Услуги</a>
+      <a href="#objects">Объекты</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <div class="hdr__r">
+      <a class="hdr__tel" href="tel:+375291234567">+375 29 123-45-67</a>
+      <a class="btn btn--line" href="#contact">Обсудить проект</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__grid">
+      <div class="hero__l">
+        <p class="eyebrow reveal">Минск и область · с 2011 года</p>
+        <h1 class="hero__h reveal">
+          <span class="w">Дом,</span> <span class="w">который</span> <span class="w">держится</span>
+          <span class="w">на</span> <span class="w">своём</span> <span class="w">месте</span>
+        </h1>
+        <p class="hero__p reveal">
+          Монолит, каркас и отделка в одном договоре. Смета фиксируется до начала работ,
+          стоимость материалов подтверждаем чеками, каждый этап принимаете вы — по фотоотчёту
+          или на площадке.
+        </p>
+        <div class="hero__cta reveal">
+          <a class="btn btn--solid" href="#contact">Рассчитать стоимость</a>
+          <a class="link-arrow" href="#objects">Смотреть объекты<span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero__r">
+        <ul class="metrics reveal">
+          <li>
+            <span class="metrics__n" data-count="68">68</span>
+            <span class="metrics__l">объектов сдано</span>
+          </li>
+          <li>
+            <span class="metrics__n" data-count="14">14</span>
+            <span class="metrics__l">лет на площадке</span>
+          </li>
+          <li>
+            <span class="metrics__n" data-count="5">5</span>
+            <span class="metrics__l">лет гарантии на конструктив</span>
+          </li>
+        </ul>
+        <p class="hero__note">Свободные бригады на ноябрь: 2</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCROLL STAGE -->
+  <section class="stage" id="stage" aria-labelledby="stage-h">
+    <div class="stage__pin">
+      <div class="stage__media">
+        <video class="stage__video" id="buildVideo" src="assets/build-scrub.mp4"
+               poster="assets/build-poster.jpg" muted playsinline preload="auto" disablepictureinpicture></video>
+        <div class="stage__veil"></div>
+      </div>
+      <div class="stage__overlay">
+        <div class="stage__top">
+          <p class="eyebrow eyebrow--light">Сцена 01 · стройка в динамике</p>
+          <h2 class="stage__h" id="stage-h">От котлована<br>до крыши</h2>
+        </div>
+        <div class="stage__steps">
+          <article class="step" data-step="0">
+            <span class="step__n">01</span>
+            <h3>Геология и котлован</h3>
+            <p>Пробные скважины, разметка, выемка грунта. Здесь решается, сколько будет стоить фундамент.</p>
+          </article>
+          <article class="step" data-step="1">
+            <span class="step__n">02</span>
+            <h3>Фундамент и монолит</h3>
+            <p>Ленточная плита или свайно-ростверковый. Бетон с паспортом, армирование по проекту.</p>
+          </article>
+          <article class="step" data-step="2">
+            <span class="step__n">03</span>
+            <h3>Стены и кровля</h3>
+            <p>Кладка или каркас, перекрытия, стропильная система. Закрываем контур до холодов.</p>
+          </article>
+          <article class="step" data-step="3">
+            <span class="step__n">04</span>
+            <h3>Отделка и сдача</h3>
+            <p>Инженерия, стяжка, чистовая отделка. Приёмка по чек-листу из 84 пунктов.</p>
+          </article>
+        </div>
+        <div class="stage__bar" aria-hidden="true">
+          <span class="stage__barFill" id="stageBar"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="sec-head">
+      <p class="eyebrow reveal">Что делаем</p>
+      <h2 class="sec-h reveal">Один подрядчик<br>на все этапы</h2>
+      <p class="sec-p reveal">Не продаём «коробку». Считаем дом целиком: от геологии до розеток,
+        чтобы вам не пришлось искать второго подрядчика на отделку.</p>
+    </div>
+    <div class="svc">
+      <a class="svc__row reveal" href="#contact">
+        <span class="svc__n">01</span>
+        <span class="svc__t">Монолитное строительство</span>
+        <span class="svc__d">Плита, стены, перекрытия. Дома и коммерческие объекты до 3 этажей.</span>
+        <span class="svc__p">от 950<br><small>BYN/м²</small></span>
+        <span class="svc__a" aria-hidden="true">→</span>
+      </a>
+      <a class="svc__row reveal" href="#contact">
+        <span class="svc__n">02</span>
+        <span class="svc__t">Каркасные дома</span>
+        <span class="svc__d">Заводской каркас, сухая сборка, контур за 6-8 недель.</span>
+        <span class="svc__p">от 780<br><small>BYN/м²</small></span>
+        <span class="svc__a" aria-hidden="true">→</span>
+      </a>
+      <a class="svc__row reveal" href="#contact">
+        <span class="svc__n">03</span>
+        <span class="svc__t">Отделка и инженерия</span>
+        <span class="svc__d">Электрика, вода, стяжка, чистовая отделка по дизайн-проекту.</span>
+        <span class="svc__p">от 420<br><small>BYN/м²</small></span>
+        <span class="svc__a" aria-hidden="true">→</span>
+      </a>
+      <a class="svc__row reveal" href="#contact">
+        <span class="svc__n">04</span>
+        <span class="svc__t">Реконструкция</span>
+        <span class="svc__d">Усиление, надстройка, перепланировка с заменой инженерии.</span>
+        <span class="svc__p">по проекту</span>
+        <span class="svc__a" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- OBJECTS -->
+  <section class="objects" id="objects">
+    <div class="sec-head">
+      <p class="eyebrow reveal">Объекты</p>
+      <h2 class="sec-h reveal">Сданные дома,<br>а не рендеры</h2>
+    </div>
+    <div class="obj-grid">
+      <article class="obj obj--wide reveal">
+        <div class="obj__img"><img src="assets/house-monolith.jpg" alt="Монолитный дом в Боровлянах, сдан в 2025 году" loading="lazy"></div>
+        <div class="obj__body">
+          <h3>Дом в Боровлянах</h3>
+          <dl class="obj__spec">
+            <div><dt>Площадь</dt><dd>214 м²</dd></div>
+            <div><dt>Тип</dt><dd>Монолит</dd></div>
+            <div><dt>Срок</dt><dd>7 месяцев</dd></div>
+            <div><dt>Год</dt><dd>2025</dd></div>
+          </dl>
+        </div>
+      </article>
+      <article class="obj reveal">
+        <div class="obj__img"><img src="assets/house-timber.jpg" alt="Каркасный дом в Смолевичах" loading="lazy"></div>
+        <div class="obj__body">
+          <h3>Дом в Смолевичах</h3>
+          <dl class="obj__spec">
+            <div><dt>Площадь</dt><dd>156 м²</dd></div>
+            <div><dt>Тип</dt><dd>Каркас</dd></div>
+            <div><dt>Срок</dt><dd>4 месяца</dd></div>
+          </dl>
+        </div>
+      </article>
+      <article class="obj reveal">
+        <div class="obj__img"><img src="assets/interior.jpg" alt="Отделка квартиры в Минске" loading="lazy"></div>
+        <div class="obj__body">
+          <h3>Квартира на Немиге</h3>
+          <dl class="obj__spec">
+            <div><dt>Площадь</dt><dd>96 м²</dd></div>
+            <div><dt>Тип</dt><dd>Отделка</dd></div>
+            <div><dt>Срок</dt><dd>3 месяца</dd></div>
+          </dl>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process">
+    <div class="sec-head">
+      <p class="eyebrow reveal">Порядок работы</p>
+      <h2 class="sec-h reveal">Пять шагов<br>без сюрпризов</h2>
+    </div>
+    <ol class="steps-list">
+      <li class="reveal"><span>01</span><h3>Замер и ТЗ</h3><p>Выезд на участок, геология, обсуждение дома. Бесплатно в Минске и в радиусе 30 км.</p></li>
+      <li class="reveal"><span>02</span><h3>Проект и смета</h3><p>Планировки, узлы, спецификация материалов. Смета по позициям, без «прочих расходов».</p></li>
+      <li class="reveal"><span>03</span><h3>Договор и график</h3><p>Фиксируем цену и даты. Предоплата 50%, остаток — по этапам после приёмки.</p></li>
+      <li class="reveal"><span>04</span><h3>Стройка</h3><p>Прораб на объекте, фотоотчёт раз в неделю, чат с бригадой без посредников.</p></li>
+      <li class="reveal"><span>05</span><h3>Сдача и гарантия</h3><p>Приёмка по чек-листу, исполнительная документация, гарантия 5 лет на конструктив.</p></li>
+    </ol>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews">
+    <div class="sec-head">
+      <p class="eyebrow reveal">Отзывы</p>
+      <h2 class="sec-h reveal">Что говорят<br>заказчики</h2>
+    </div>
+    <div class="rev-grid">
+      <blockquote class="reveal">
+        <p>«Смета не выросла ни на рубль, хотя по ходу меняли планировку второго этажа. Все изменения считали заранее и показывали цифры до работ».</p>
+        <footer>Андрей, дом 214 м², Боровляны</footer>
+      </blockquote>
+      <blockquote class="reveal">
+        <p>«Начали в апреле, в ноябре заехали. Раз в неделю присылали фото и короткий отчёт, вопросов «а что там сейчас» не было совсем».</p>
+        <footer>Ирина, дом 156 м², Смолевичи</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="sec-head">
+      <p class="eyebrow reveal">Вопросы</p>
+      <h2 class="sec-h reveal">Коротко о главном</h2>
+    </div>
+    <div class="faq__list">
+      <details class="reveal">
+        <summary>Сколько стоит дом под ключ?</summary>
+        <p>Каркас от 780 BYN/м², монолит от 950 BYN/м² — это конструктив с кровлей и фасадом.
+           С отделкой и инженерией итог обычно 1 400-1 900 BYN/м². Точная цифра появляется
+           после проекта и спецификации, а не «на глаз».</p>
+      </details>
+      <details class="reveal">
+        <summary>Можно ли строить зимой?</summary>
+        <p>Монолит — с противоморозными добавками и прогревом, это дороже на 6-9%.
+           Каркас собирается круглый год. Земляные работы планируем до устойчивых морозов.</p>
+      </details>
+      <details class="reveal">
+        <summary>Как устроена оплата?</summary>
+        <p>50% при подписании договора, остаток — по этапам после приёмки. Материалы
+           закупаем по согласованной спецификации с чеками, без наценки на материалы.</p>
+      </details>
+      <details class="reveal">
+        <summary>Что с гарантией?</summary>
+        <p>5 лет на конструктив и кровлю, 2 года на инженерные сети и отделку.
+           Гарантия прописана в договоре, а не на словах.</p>
+      </details>
+      <details class="reveal">
+        <summary>Можно приехать на действующий объект?</summary>
+        <p>Да, показываем площадку и даём поговорить с заказчиком, у которого сейчас идёт стройка.
+           Это честнее любого портфолио.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact__grid">
+      <div class="contact__l">
+        <p class="eyebrow reveal">Заявка</p>
+        <h2 class="contact__h reveal">Считаем ваш дом<br>за 3 дня</h2>
+        <p class="sec-p reveal">Оставьте телефон: перезвоним в рабочее время, зададим 6 вопросов
+          и назовём вилку по бюджету. Без навязывания встреч.</p>
+        <div class="contact__meta reveal">
+          <a href="tel:+375291234567">+375 29 123-45-67</a>
+          <a href="mailto:hello@monolit.demo">hello@monolit.demo</a>
+          <span>Минск, ул. Притыцкого 62, офис 14</span>
+        </div>
+      </div>
+      <form class="form reveal" id="leadForm" novalidate>
+        <label class="field">
+          <span>Имя</span>
+          <input type="text" name="name" autocomplete="name" required placeholder="Как к вам обращаться">
+        </label>
+        <label class="field">
+          <span>Телефон</span>
+          <input type="tel" name="phone" autocomplete="tel" inputmode="tel" required placeholder="+375">
+        </label>
+        <label class="field">
+          <span>Что планируете</span>
+          <select name="kind">
+            <option>Дом под ключ</option>
+            <option>Каркасный дом</option>
+            <option>Отделка</option>
+            <option>Реконструкция</option>
+          </select>
+        </label>
+        <button class="btn btn--solid btn--full" type="submit">Отправить заявку</button>
+        <p class="form__note">Демонстрационная форма макета. Никуда не отправляет.</p>
+        <p class="form__ok" id="formOk" hidden>Спасибо. В рабочей версии здесь уйдёт заявка менеджеру.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="ftr">
+  <div class="ftr__in">
+    <p>МОНОЛИТ · строительство домов в Минске и области</p>
+    <p>Демо-макет SiteFast.by · контент вымышленный</p>
+    <a href="#top">Наверх ↑</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
